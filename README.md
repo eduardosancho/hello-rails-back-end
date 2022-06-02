@@ -1,24 +1,62 @@
-# README
+# hello-rails-back-end
+This is the back-end part of a two-part project. This repo contains the an API the responds with random greetings.
+You can find the front end part [here](https://github.com/eduardosancho/hello-react-front-end).
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+It was deployed with Heroku to [this url](https://desolate-tundra-61515.herokuapp.com/api/v1/greetings).
+<hr>
 
-Things you may want to cover:
+## Preview
+![preview](./screenshot.png)
 
-* Ruby version
+### Requirements
+Make sure you have Ruby on Rails installed.
 
-* System dependencies
+Refer to [Section 3](https://guides.rubyonrails.org/v5.1/getting_started.html#:~:text=3%20Creating%20a%20New%20Rails%20Project) from the official [Rails Guide](https://rubyonrails.org/) to install rails in your machine.
+<hr>
 
-* Configuration
+### Clone this repo
+~~~ bash
+git clone https://github.com/eduardosancho/hello-react-front-end.git
+~~~
+<hr>
 
-* Database creation
+### Getting started
+Install dependencies:
+~~~ bash
+bundle install
+~~~
 
-* Database initialization
+Create database:
+~~~ bash
+rails db:setup
+~~~
 
-* How to run the test suite
+Start server at port 3001:
+~~~ bash
+rails s -p 3001
+~~~
 
-* Services (job queues, cache servers, search engines, etc.)
+## Collaborators
+👤 **Eduardo**
 
-* Deployment instructions
+ Platform | Badge |
+ --- | --- |
+ **GitHub**  | [@eduardosancho](https://github.com/eduardosancho)
+ **Twitter** | [@sanchitoblog](https://twitter.com/sanchitoblog)
+ **LinkedIn** | [Eduardo Sancho Solano](https://www.linkedin.com/in/eduardo-sancho-solano/)
+<hr>
+ 
+## Show your support
 
-* ...
+Give a ⭐️ if you like this project!
+<hr>
+
+## Acknowledgments
+
+The ideas and inspiration from this project are coming from this online school of software development:
+ [**Microverse**](https://www.microverse.org/)
+<hr>
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

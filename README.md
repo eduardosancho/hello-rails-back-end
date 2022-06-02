@@ -16,7 +16,7 @@ Refer to [Section 3](https://guides.rubyonrails.org/v5.1/getting_started.html#:~
 
 ### Clone this repo
 ~~~ bash
-git clone https://github.com/eduardosancho/hello-react-front-end.git
+git clone https://github.com/eduardosancho/hello-rails-back-end.git
 ~~~
 <hr>
 
